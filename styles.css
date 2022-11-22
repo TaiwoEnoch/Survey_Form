@@ -43,27 +43,27 @@ label {
     align-items: center;
     font-size: 1.125rem;
     margin-bottom: 0.5rem;
-}
+}  
 
 form {
     padding-left: 20px;
     align-content: center;
     max-width: 750px;
     margin: auto;
-    background-color: rgba(27, 27, 50, 0.80);
+    background-color: rgba(27, 27, 50, 0.8);
     color: #fff;
-}
+}  
 
 .input-textarea {
     min-height: 80px;
     width: 700px;
     border: 3px solid #37af65;
     padding: 0.625rem;
-}
+}  
 
 .input-textarea[type=text] :focus {
     border: 3px solid #37af65;
-  }
+}  
 
 .submit-button {
     display: block;
@@ -73,11 +73,11 @@ form {
     background: #37af65;
     font-size: 20px;
     cursor: pointer;
-}
+}  
 
 .input-radio, .input-checkbox {
     display: inline-block;
     margin-right: 0.625rem;
     min-height: 1.25rem;
     min-width: 1.25rem;
-}
+}  
