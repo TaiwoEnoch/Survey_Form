@@ -43,20 +43,20 @@ form {
 }
 
 :focus {
-    outline: none;
-}
-
-input:invalid {
-    border: 2px solid red;
-}
-
-:valid {
-    border: 2px solid green;
+  outline: none;
 }
 
 .form1,
 input {
-    border-radius: 10px;
+  border-radius: 10px;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+:valid {
+  border: 2px solid green;
 }
 
 .input-textarea {
