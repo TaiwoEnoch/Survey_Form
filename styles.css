@@ -26,6 +26,8 @@ body {
 .form1 {
   padding: 1rem 0.125rem;
   width: 700px;
+  padding-left: 10px;
+  font-size: 25px;
 }
 
 label {
@@ -46,23 +48,25 @@ form {
   outline: none;
 }
 
-.form1,
 input {
-  border-radius: 10px;
+  border-radius: 5px;
+  font-size: 23px;
+  padding-left: 30px;
 }
 
 input:invalid {
   border: 2px solid red;
 }
 
-:valid {
+input:valid {
   border: 2px solid green;
 }
 
 .input-textarea {
   min-height: 80px;
   width: 700px;
-  padding: 0.625rem;
+  padding: 10px;
+  font-size: 22px;
 }
 
 .submit-button {
@@ -81,4 +85,10 @@ input:invalid {
   margin-right: 0.625rem;
   min-height: 1.25rem;
   min-width: 1.25rem;
+  font-size: 22px;
+}
+
+#survey-form {
+  margin-bottom: 25px;
+  padding-left: 10px;
 }
